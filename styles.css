@@ -1,0 +1,79 @@
+body{
+   /* border: 1px solid purple; */
+   width:  600px;
+   margin: auto;
+
+    /* establecemos el tamano del cuerpo y mergen automatico para centrar */
+}
+article{
+   /* border: 1px solid yellow ; */
+    width: 600px;
+    
+      
+}
+.header p {
+    display: flex;
+    margin: auto;
+    
+}
+.before-dots{
+    display: flex;
+    
+}
+.post-header{
+    /* border: 1px solid red; */
+    display: flex;
+    
+    justify-content: space-between;
+
+    /* distribucion del header */
+    
+}
+.post-header div{
+    padding: 5px;
+}
+/*iconos del header*/
+.fa-brands{
+    font-size: 2.5rem;
+    list-style: none;
+    color: orangered;
+    margin: 5px 5px 5px 10px;
+}
+.fa-solid{
+    font-size: 2.5rem;
+    list-style: none;
+    color: black;
+    padding: 7px;
+}
+
+/*iconos del post*/
+
+.post-icons{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.0rem;
+    padding: 5px 5px;
+    
+    
+}
+.froggy{
+    display: flex;
+
+    
+}
+.froggy div{
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/*cambiar tipo de letra a robotic*/
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Trocchi', serif;  
+}
+/*usar overflow*/
+/*usar flex v position v float v display*/
